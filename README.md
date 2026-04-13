@@ -27,4 +27,6 @@ The final demo uses this as a real-world foundation: a config.json file that the
 One honest caveat worth mentioning: this implementation writes directly to flash with no wear-levelling, which means flash blocks could degrade with very frequent writes. For occasional use — config files, log dumps, music — it's perfectly fine. For high-frequency data logging, a buffered approach or an SD card would be more appropriate.
 
 Youtube: https://www.youtube.com/watch?v=j9MnhmSkKlU
+Arduino forum: https://forum.arduino.cc/t/expose-the-esp32-s3-flash-as-mass-storage-device-working-for-json-txt/1411015
+
 
