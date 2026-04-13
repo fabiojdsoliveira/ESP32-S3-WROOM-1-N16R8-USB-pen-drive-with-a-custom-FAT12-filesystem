@@ -1,4 +1,4 @@
-# ESP32-S3-WROOM-1-N16R8-USB-pen-drive-with-a-custom-FAT12-filesystem
+# ESP32-S3-WROOM-1-N16R8 : USB-pen-drive-with-a-custom-FAT12-filesystem — built from scratch
 
 The ESP32-S3 has a native USB port that can act as a USB Mass Storage device — in other words, it can appear on your PC as a pen drive. The idea was simple: store files on the ESP's internal flash, plug it into a PC, edit those files, unplug, and have the ESP read the updated files and act on them.
 
